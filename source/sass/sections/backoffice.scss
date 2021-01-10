@@ -1,0 +1,40 @@
+#backoffice{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    .card{
+        border-radius: 12px;
+        border: 0;
+        box-shadow: 0px 0px 25px 4px #0000000d;
+    }
+    .backoffice__text{
+        max-width: 900px;
+        width: 90%;
+        margin: auto;
+        .desc{
+            max-width: 600px;
+            margin: auto;
+            font-size: 18px;
+        }
+    }
+    .date{
+        font-size: 14px;
+        i{
+            padding-right: 15px;
+        }
+    }
+    h5{
+        font-size: 30px;
+    }
+    .backoffice__buttons{
+        a{
+            font-size: 14px;
+            color: $black;
+            i{
+                padding-left: 15px;
+            }
+        }
+    }
+    i{
+        color: $purple;
+    }
+}

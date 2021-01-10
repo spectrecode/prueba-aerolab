@@ -1,0 +1,222 @@
+@media only screen and (max-width:1024px){
+    #banner{
+        height: 600px;
+        .banner__box{
+            padding-top: 2%;
+            .banner__text{
+                max-width: 465px;
+                h2{
+                    font-size: 30px;
+                    line-height: 42px;
+                }
+                .cotizar{
+                    max-width: 320px;
+                }
+            }
+        }
+    }
+    #control{
+       .control__box{
+           .control__img{
+                width: 90%;
+           }
+           .control__text{
+               top: -15%;
+           }
+       } 
+    }
+    #customers{
+        height: 950px;
+    }
+    .buttons{
+        width: 150px;
+        a{
+            width: 150px;
+            height: 30px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    h3{
+        font-size: 36px;
+        line-height: 36px;
+    }
+}
+@media only screen and (max-width:992px){
+    #participate{
+        padding-top: 0;
+        h3{
+            font-size: 33px;
+            line-height: 46px;
+        }
+    }
+    #servicio{
+        height: 20%;
+    }
+    #control{
+        height: 1300px;
+        .control__box{
+            .control__text{
+                top: -30%;
+            }
+        } 
+    }
+}
+@media only screen and (max-width:767px){
+    header{
+        #header{
+            background: url('../img/Fondo1Resp.png')
+        }
+    }
+    #participate{
+        padding-top: 10%;
+    }
+    #banner{
+        background: url('../img/Fondo1Resp.png')0 -130px;
+        background-size: cover;
+        height: 1200px;
+        .banner__box{
+            padding-top: 15%;
+            .banner__text{
+                max-width: 100%;
+                .cotizar{
+                    max-width: 246px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+    #visualizacion{
+        min-height: auto;
+        .visualizacion__box{
+            .visualizacion__img{
+               max-width: 100%;
+                width: 100%; 
+            }
+            .visualizacion__text{
+                max-width: 100%;
+                padding-top: 8%;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+        }        
+    }
+    #servicio{
+        height: auto;
+        .servicio__box{
+            .servicio__img{
+               max-width: 100%;
+                width: 100%; 
+            }
+            .servicio__text{
+                max-width: 100%;
+                padding-top: 8%;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+        }        
+    }
+    #control{
+        height: auto;
+        .control__box{
+            padding-top: 40px;
+            padding-bottom: 50px;
+            .control__img{
+                background-image:none;
+            }
+            .control__text{
+                position: relative;
+                left: 0;
+                margin: 0;
+                padding-left: 15px;
+                padding-right: 15px;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+    #satisfaccion{
+        height: auto;
+        .satisfaccion__box{
+            .satisfaccion__img{
+               max-width: 100%;
+                width: 100%; 
+            }
+            .satisfaccion__text{
+                max-width: 100%;
+                padding-top: 8%;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+        }        
+    }
+    #customers{
+        background: url('../img/Fondo4Resp.png')0 -130px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 700px;
+        .customers__box{
+            padding-top: 15%;
+            padding-right: 15px;
+            width: 100%;
+            h2{
+                font-size: 35px;
+                line-height: 50px;
+            }
+            .buttons{
+                margin: auto;
+            }
+        }
+    }
+    #backoffice{
+        .backoffice__text{
+            h2{
+                font-size: 46px;
+                line-height: 64px;
+            }
+        }
+        h5{
+            font-size: 24px;
+        }
+    }
+    #footer{
+        .footer__items{
+            width: 100%;
+            li{
+                display: block;
+            }
+        }
+    }
+    .container-fluid{
+        width: 100%;
+    }
+    .buttons{
+        width: 246px;
+        a{
+            width: 246px;
+            height: 46px;
+        }
+    }
+    .section{
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width:425px){
+    #banner{
+        height: 1100px;
+    }
+}
+@media only screen and (max-width:375px){
+    #banner{
+        height: 900px;
+        .banner__box{
+            padding-top: 0;
+        }
+    }
+}

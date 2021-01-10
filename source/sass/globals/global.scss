@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+a{
+	color: $white;
+	&:active{
+		text-decoration: none;
+	}
+	&:hover{
+		text-decoration: none;
+	}
+}
+.container{
+	overflow: hidden;
+}
+.container-fluid{
+	width: 96%;
+}
+.buttons{
+	background-color: $pink;
+	width: 187px;
+	height: 48px;
+	line-height: 2.7;
+	border-radius: 50px;
+	color: $white;
+	text-align: center;
+	a{
+		color: $white;
+		width: 187px;
+	}
+}
+h2{
+    font-size: 56px;
+    line-height: 58px;
+}
+h3{
+	font-size: 46px;
+	line-height: 64.4px;
+}
+p{
+    line-height: 28.8px;
+}
+img{
+	width: 100%;
+}
+.section{
+    padding-top: 100px;
+}
+ul{
+	li{
+		display: inline;
+	}
+}
+
+.pink{
+	color: $pink;
+	font-size: 14px;
+}

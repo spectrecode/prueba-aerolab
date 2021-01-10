@@ -1,0 +1,23 @@
+#visualizacion{
+    min-height: 1030px;
+    .visualizacion__box{
+        padding-top: 50px;
+        .visualizacion__img{
+            width: 80%;
+            max-width: 650px;
+        }
+        .visualizacion__text{
+            padding-top: 15%;
+            width: 100%;
+            max-width: 40%;
+            padding-right: 120px;
+            position: relative;
+            .decoration{
+                position: absolute;
+                right: 0;
+                top: 290px;
+            }
+        }
+        
+    }
+}

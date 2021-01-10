@@ -1,0 +1,21 @@
+#satisfaccion{
+    position: relative;
+    z-index: 10;
+    .satisfaccion__box{
+        .satisfaccion__text{
+            padding-top: 19%;
+            width: 100%;
+            max-width: 40%;
+            padding-right: 25px;
+            padding-left: 5%;
+        }
+        .satisfaccion__img{
+            width: 80%;
+            max-width: 746px;
+        }
+    }
+    .satisfaccion__decoration{
+        width: 146px;
+        margin-left: 50px;
+    }
+}

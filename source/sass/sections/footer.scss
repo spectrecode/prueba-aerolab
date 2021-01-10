@@ -1,0 +1,24 @@
+#footer{
+    background-color: $black;
+    a{
+        color: $gray;
+    }
+    .footer__items{
+        li{
+            font-size: 15px;
+            a{
+                width: 100px;
+            }
+        }
+    }
+    .footer__logo{
+        max-width: 140px;
+        width: 100%;
+        margin: auto;
+    }
+    .footer__rrss{
+        i{
+            font-size: 30px;
+        }
+    }
+}

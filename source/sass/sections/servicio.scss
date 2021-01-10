@@ -1,0 +1,16 @@
+#servicio{
+    height: 700px;
+    .servicio__box{
+        .servicio__text{
+            padding-top: 19%;
+            width: 100%;
+            max-width: 40%;
+            padding-right: 25px;
+            padding-left: 5%;
+        }
+        .servicio__img{
+            width: 80%;
+            max-width: 746px;
+        }
+    }
+}

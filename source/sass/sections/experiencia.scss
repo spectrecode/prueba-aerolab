@@ -1,0 +1,23 @@
+#participate{
+    margin-top: 7%;
+    h3{
+        width: 85%;
+        max-width: 983px;
+        text-align: center;
+    }
+    .part__img{
+        width: 200px;
+        text-align: center;
+    }
+    .part__text{
+        .title{
+            font-size: 22px;
+        }
+        .text{
+            max-width: 306px;
+            p{
+                line-height: 25.6px;
+            }
+        }
+    }
+}

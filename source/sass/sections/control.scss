@@ -1,0 +1,31 @@
+#control{
+    height: 1710px;
+    .control__box{
+        padding-top: 70px;
+        position: relative;
+        .control__img{
+            width: 80%;
+            max-width: 1068px;
+            background-image: url('../img/componente.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 1845px;
+        }
+        .control__text{
+            position: absolute;
+            width: 100%;
+            max-width: 30%;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            height: 600px;
+            right: 6%;
+            .decoration{
+                position: absolute;
+                right: 0;
+                top: 290px;
+            }
+        }
+        
+    }
+}
