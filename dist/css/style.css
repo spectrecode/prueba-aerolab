@@ -9324,7 +9324,7 @@ ul li {
     top: -15%;
   }
   #customers {
-    height: 950px;
+    height: 800px;
   }
   .buttons {
     width: 150px;
@@ -9363,6 +9363,9 @@ ul li {
   }
   #control .control__box .control__text {
     top: -30%;
+  }
+  #customers {
+    height: 600px;
   }
 }
 
